@@ -14,10 +14,10 @@ Ring signatures are a type of digital signature that provide anonymity and priva
 
 Key features of ring signatures:
 
-Anonymity: The signer's identity is obfuscated within the ring of public keys.
-Unforgeability: Only a member of the ring can create a valid signature.
-Unlinkability: Signatures from the same signer cannot be linked to each other.
-Efficiency: Ring signatures can be generated and verified efficiently.
-Ring signatures have applications in areas like confidential transactions, whistleblowing, and secure voting for decentralized organizations.
+- **Anonymity**: The signer's identity is obfuscated within the ring of public keys.
+- **Unforgeability**: Only a member of the ring can create a valid signature.
+- **Efficiency**: Ring signatures can be generated and verified efficiently.
 
-For this project, we utilize (Alice's Ring LSAG TS library)[dhdhddhdh], a TypeScript implementation of the ring signature algorithm. 
+Ring signatures have applications in areas like confidential transactions, whistleblowing, and e-voting.
+
+For this project, we utilize (Alice's Ring LSAG TS library)[https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS], a TypeScript implementation of the ring signature algorithm. 
