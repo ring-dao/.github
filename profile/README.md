@@ -1,4 +1,4 @@
-### Ring DAO
+## Ring DAO
 
 Ring DAO is a tooling for Decentralized Autonomous Organizations (DAOs) that innovates by using ring signatures. This unique approach allows the toolkit to provide privacy to DAO members through token-gated authentication based on ring signatures.
 
