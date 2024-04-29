@@ -21,3 +21,12 @@ Key features of ring signatures:
 Ring signatures have applications in areas like confidential transactions, whistleblowing, and e-voting.
 
 For this project, we utilize [Alice's Ring LSAG TS library](https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS), a TypeScript implementation of the ring signature algorithm. 
+
+## Project Structure :
+
+The project is composed of several key components that work together to provide a secure and privacy-preserving governance solution for decentralized autonomous organizations. 
+- [**Metamask Snap**](https://github.com/ring-dao/LSAG-snap) :The Metamask Snap is a crucial part of the Ring DAO system, as it allows users to create ring signatures seamlessly while maintaining the safety and user experience provided by the Metamask wallet. This integration enables DAO members to authenticate and interact with the DAO without revealing their individual identities.
+- [**WebApp**](https://github.com/ring-dao/web_app) : The Ring DAO web application, built using React, provides a user-friendly interface for DAO members to interact with each other and the DAO's governance processes. The web application leverages the ring signature functionality to anonymize the users' identities, ensuring that their participation in the DAO is kept private.
+- [**Backend**](https://github.com/ring-dao/backend) : The backend component, built using Express, serves as the intermediary between the web application and the underlying database. This backend ensures secure and efficient data transfer, while also enforcing the privacy guarantees provided by the ring signature system.
+To maintain the anonymity of DAO members, every interaction that requires write permission goes through a middleware that verifies a ring signature. The backend never knows which specific address is calling it, as the identity is obfuscated within the ring of public keys. 
+- [**Smart-Contract**](https://github.com/ring-dao/LSAG-evm-verifier) : The Ring DAO smart contracts are deployed on Scroll, enabling DAO members to vote anonymously using ring signatures. This approach ensures that the DAO's decision-making process is transparent and secure, while preserving the privacy of the individual members.
