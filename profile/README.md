@@ -20,4 +20,4 @@ Key features of ring signatures:
 
 Ring signatures have applications in areas like confidential transactions, whistleblowing, and e-voting.
 
-For this project, we utilize (Alice's Ring LSAG TS library)[https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS], a TypeScript implementation of the ring signature algorithm. 
+For this project, we utilize [Alice's Ring LSAG TS library](https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS), a TypeScript implementation of the ring signature algorithm. 
