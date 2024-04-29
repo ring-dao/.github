@@ -7,5 +7,4 @@ Ring DAO is a tooling for Decentralized Autonomous Organizations (DAOs) that inn
 - **Privacy-Preserving Authentication:** Ring DAO leverages ring signatures to enable token-gated authentication, allowing members to interact with the DAO without revealing their individual identities.
 - **Secure Voting System:** The project also innovates by incorporating ring signatures into the DAO's voting system, enhancing the privacy and security of the decision-making process.
 -  **Decentralized Governance:** Ring DAO is designed to empower DAO members with a decentralized governance model, where decisions are made collectively and transparently.
--  **Extensibility:** The toolkit is built to be flexible and extensible, allowing for easy integration with various blockchain networks and DAO management tools.
-
+-  **Metamask Snap Integration:** Ring DAO leverages the Metamask Snap API to seamlessly integrate the ring signature process into the user experience, providing a familiar and secure way for members to authenticate and vote within the DAO.
