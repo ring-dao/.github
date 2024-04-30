@@ -35,4 +35,4 @@ To maintain the anonymity of DAO members, every interaction that requires write 
 
 To use the demo version of Ring DAO you can interact with our app : [ringdao.xyz](https://ringdao.xyz)  
 You NEED to install Metamask FLASK in order to use our homemade SNAP, see [MetaMask Flask](https://docs.metamask.io/snaps/get-started/install-flask/)  
-Nb: Do not import any of your main account, this is for the purpose only.
+Nb: Do not import any of your main account, this is for test purpose only.
