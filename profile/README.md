@@ -30,3 +30,9 @@ The project is composed of several key components that work together to provide 
 - [**Backend**](https://github.com/ring-dao/backend) : The backend component, built using Express, serves as the intermediary between the web application and the underlying database. This backend ensures secure and efficient data transfer, while also enforcing the privacy guarantees provided by the ring signature system.
 To maintain the anonymity of DAO members, every interaction that requires write permission goes through a middleware that verifies a ring signature. The backend never knows which specific address is calling it, as the identity is obfuscated within the ring of public keys. 
 - [**Smart-Contract**](https://github.com/ring-dao/LSAG-evm-verifier) : The Ring DAO smart contracts are deployed on Scroll, enabling DAO members to vote anonymously using ring signatures. This approach ensures that the DAO's decision-making process is transparent and secure, while preserving the privacy of the individual members.
+
+## DEMO :
+
+To use the demo version of Ring DAO you can interact with our app : [ringdao.xyz](https://ringdao.xyz)  
+You NEED to install Metamask FLASK in order to use our homemade SNAP, see [MetaMask Flask](https://docs.metamask.io/snaps/get-started/install-flask/)  
+Nb: Do not import any of your main account, this is for the purpose only.
